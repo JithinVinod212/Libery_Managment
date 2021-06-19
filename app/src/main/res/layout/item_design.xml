@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="90dp"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/ace" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageview1"
+            android:fontFamily="sans-serif"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:text="Hello,I am ACE.Luffy Brother"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="-----------------------------------------------------------------------------------------------------------------"
+            android:textColor="@color/black"
+            android:layout_marginTop="100dp"
+            />
+
+
+
+            
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
